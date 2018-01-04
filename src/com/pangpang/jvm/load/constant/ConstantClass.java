@@ -1,4 +1,4 @@
-package com.pangpang.jvm.load;
+package com.pangpang.jvm.load.constant;
 /** 
 * @author  : lijingwei
 * @version ：2018年1月4日 下午4:18:39 

@@ -1,17 +1,19 @@
-package com.pangpang.jvm.load;
+package com.pangpang.jvm.load.supsub;
+
 /** 
 * @author  : lijingwei
 * @version ：2018年1月4日 下午4:19:18 
 */
-public class NotInitialization {
+public class RunClass {
 	
 	/**
 	 * run main(), get the result:
-	 * not show 'ConstantClass init!'
-	 * hello world
+	 * SuperClass init!
+	 * 123
+	 * not show 'SubClass init!'
 	 */
 	public static void main(String[] args) {
-		System.out.println(ConstantClass.HELLOWORLD);
+		System.out.println(SubClass.value);
 	}
 
 }
